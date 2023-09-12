@@ -1,0 +1,74 @@
+#wrapper2{
+    display: flex;
+    flex-direction: row;
+}
+
+#signup{
+    display: flex;
+    flex-direction: column; /* Means items will go "up&down" */
+    justify-content: center;
+    align-items: center;
+     width: 80%; 
+    padding-bottom: 1rem;
+}
+
+#head{ 
+    font-weight: 400px;
+    position: relative;
+    left: 8%;
+    margin-top: 2%;
+}
+
+.signupError{
+    font-weight: 150px;
+    color: red;
+    position: relative;
+    left: 8%;
+}
+
+.signupsuccess{
+    font-weight: 150px;
+    color: green;
+    position: relative;
+    left: 8%;
+}
+
+#signup form{
+    width: 80%;
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+#signup div{
+    font-size: 0.9rem;
+    line-height: 1rem;
+    font-weight: 500;
+}
+
+#signup .text-input{
+    margin-bottom: 1.3rem;
+    width: 100%;
+    border-radius: 2px;
+    background: #181818;
+    border: 1px solid #555555;
+    color: #cccccc;
+    padding: 0.5rem 1rem;
+    line-height: 1.3rem;
+}
+
+#signin .third-btn{
+    width: 20%;
+    padding: 0.7rem 1rem;
+    height: 2.7rem;
+    display: block;
+    border: 0;
+    border-radius: 2px;
+    font-weight: 500;
+    background: #f96816;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s;
+    
+}
